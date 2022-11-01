@@ -1,0 +1,91 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.cash-withdrawal-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #150b3e;
+  border-radius: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+  width: 60%;
+  max-width: 1000px;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.profile-icon {
+  background-color: #c7d2fe;
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 400;
+  padding: 25px;
+  text-align: center;
+  margin-right: 30px;
+}
+.profile-name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.bal-name {
+  color: #585076;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.amount-container {
+  display: flex;
+  flex-direction: column;
+}
+.amount {
+  color: #ffffff;
+  font-size: 34px;
+  font-family: 'Roboto';
+  font-weight: 800;
+}
+.currency-name {
+  color: #585076;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+}
+.withdraw-name {
+  color: #ffffff;
+  font-size: 34px;
+  font-family: 'Roboto';
+  font-weight: 800;
+}
+.sum {
+  color: #585076;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+.denomination-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

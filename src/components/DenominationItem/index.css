@@ -1,0 +1,18 @@
+/* Write your CSS here */
+
+.denomination-item {
+  list-style-type: none;
+}
+.value-button {
+  background-color: #382f5a;
+  border: solid #c4c4c4 1px;
+  border-radius: 8px;
+  width: 300px;
+  color: #ffffff;
+  font-size: 32px;
+  font-family: 'Roboto';
+  margin-right: 25px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  outline: none;
+}
